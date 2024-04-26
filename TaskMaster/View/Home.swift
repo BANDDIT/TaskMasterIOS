@@ -17,6 +17,7 @@ struct Home: View {
     
     var body : some View{
         NavigationView{
+            Text("Test Github")
             VStack{
                 Text(title)               .fontWeight(.bold)
                     .font(.system(size: 35))
