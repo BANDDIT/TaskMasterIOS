@@ -10,7 +10,7 @@ import SwiftUI
 struct Home: View {
     @Binding var dataTasks:[Task] //= DataGetter.listTasks
     @Binding var bgColor:Color
-    @State var title:String = "My Task"
+    @State var title:String = "My Task Github"
     
     var task2 = Task(id: 1, title: "Kerjain PR Math", desc: "lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll", deadline: Date())
     
